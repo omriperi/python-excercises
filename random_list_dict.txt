@@ -101,6 +101,6 @@ https://docs.python.org/3.6/howto/sorting.html#key-functions
 
 We should pass to the "key" argument what it shuold look like inside our dictionary
 in order to sort it, this we will tell him by using lambda functions
-
-Hint #2 
+Please see examples in this link in order to see how to use lambda functions:
+https://docs.python.org/3.6/howto/sorting.html#key-functions
 
