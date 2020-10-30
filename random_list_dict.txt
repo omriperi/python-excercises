@@ -1,0 +1,106 @@
+Difficulty Level: 3
+------------
+Goals:
+------------
+- Randomly creating dicts
+- Special sortings for lists
+
+------------
+Material:
+------------
+1:
+Python Random Package:
+https://docs.python.org/3.6/library/random.html
+1. Note how many options we're having here
+2. Please open IPython and play with the random package a little bit
+
+2:
+Lists methods
+https://docs.python.org/3.6/tutorial/datastructures.html
+Try to see what are the methods here,
+try to look for appropriate list method for revesing a list
+
+3:
+Lambda functions
+Lambda functions are like regular function, but instead of defining
+them with "def" we're defining them in one line
+For example, for defining a function taking integer and return this
+integer with the addition in 3, we can do it with general function in this way:
+
+def integer_addition(some_integer):
+    return some_integer + 3
+
+And with lambda functions that way:
+integer_addition = lambda x: x + 3
+
+Please read about lambda functions more in this section:
+https://www.w3schools.com/python/python_lambda.asp
+
+------------
+Material:
+------------
+1. 
+Please prepare a new list, this list should contain
+10 dicts, each dict should contain two keys:
+'number' - This key should contain a random value between 1 to 10
+Random key, that it's value should be in the name of the random key
+This random key should be STRING in the length of 5
+
+For example, one dict inserted to the list can be:
+{
+    'number': 3 # Random number between 1 to 10
+    'sdhka': 'sdhka # Random key name (sdhka) that it's value is the same as the key itself
+                    # Note that the dict is in length of 5
+}
+
+
+Hint #1:
+Check material 1 in order to see how to generate a random number
+
+Hint #2:
+For generating string with 5 random letters, 
+we should generate 5 random letters and combine them together
+So, in first step we should prepare a list with random string, that should look like:
+random_list = ['a', 'b', 't', 'q', 'n'] - The strings will be random
+And then, for changing the list into a "abtqn" string,
+we should replace the list into one string
+We can do it with:
+random_string = ''.join(random_list)
+and than the random_string will be 'abtqn'
+For more information regards the 'join' method please read:
+https://www.w3schools.com/python/ref_string_join.asp
+
+
+2. 
+Sort the list from the dict with the smallest value in the 'number'  
+you got from the first step is
+For example, if we're having two dict in the list:
+        # Dict number 1                   # Dict number 2
+[{'number': 4, 'NxbTc': 'NxbTc'}, {'number': 3, 'iTTHu': 'iTTHu'}]
+We should sort the list in the way that Dict number 2 will be the
+first item in the list, and dict number 1 will be the second item in the list,
+in that way:
+[{'number': 3, 'iTTHu': 'iTTHu'}, {'number': 4, 'NxbTc': 'NxbTc'}]
+
+Hint #1:
+Lists having "sort" method, used to sort them
+In general, when we're having a list of integers, for example:
+integer_list = [3, 2, 1]
+We can use the sort function in order to sort it
+integer_list.sort()
+And afterwards the list will be sorted from small to big, 
+and the result will be:
+integer_list = [1, 2, 3] # TRY IT WITH IPYTHON!!!
+
+But when we're having variabls that is not integer inside a list
+we should "tell" the sort method how to sort the items in the list
+So we're going to tell the sort method to sort the values found in the 
+list (our dicts) according to their 'number' key
+For more information read here:
+https://docs.python.org/3.6/howto/sorting.html#key-functions
+
+We should pass to the "key" argument what it shuold look like inside our dictionary
+in order to sort it, this we will tell him by using lambda functions
+
+Hint #2 
+
