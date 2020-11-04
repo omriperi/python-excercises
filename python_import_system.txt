@@ -1,0 +1,50 @@
+Difficulty Level: 1
+------------
+Goals:
+------------
+- Importing packages in various ways
+
+------------
+Material:
+------------
+1:
+Definitive guide for python import statements:
+https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html
+
+2:
+KUDOS KeyNote #2
+https://docs.python.org/3.6/tutorial/datastructures.html
+Try to see what are the methods here,
+try to look for appropriate list method for revesing a list
+
+
+------------
+Excercise:
+------------
+In this excercise we'll import functions from the "random" package in varius ways, 
+and ask ourselves what's the benefit importing in each situation
+
+1:
+Import the "random" package, in your python file
+Now, call "randint" function without any other import
+
+Question;
+What's the benefit importing entire pakage instead of specific function from the package?
+
+2:
+Import "randint" specifically from the random package and call the function
+
+Question;
+What's the benefit importing specific function instead of the entire package?
+
+3:
+Import entire function from "random" package,
+afterwards call the "randint" package
+
+Ask yourself, what's the disatvange of using this 
+
+*4*:
+Import "randint" specifically from the random package and call the function (same as in subject 2)
+After the line of the import, declare a variable called "randint" and assign variable 3 to it (randint = 3)
+Try to call randint function, can you do it?
+Ask yourself, what happened here?

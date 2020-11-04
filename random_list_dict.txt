@@ -3,10 +3,11 @@ Difficulty Level: 3
 Goals:
 ------------
 - Randomly creating dicts
-- Special sortings for lists
+- Special sortings for lists (key function)
+- Generating random strings
 
 ------------
-Material:
+Excercise:
 ------------
 1:
 Python Random Package:
