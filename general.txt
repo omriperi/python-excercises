@@ -1,0 +1,14 @@
+build your own package excercise
+
+BASH:
+-------
+cd ~
+mkdir python_import
+-------
+
+PYTHON:
+-------
+import random
+-------
+
+(ADVANCED) - Label        build your own package excercise

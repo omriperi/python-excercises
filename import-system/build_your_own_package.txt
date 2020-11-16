@@ -1,0 +1,82 @@
+Difficulty Level: 3
+------------
+Goals:
+------------
+In this excercise we'll learn to write our own package,
+the difference between package and a module, and how python
+detects packages it imports
+
+------------
+Material:
+------------
+1:
+Definitive guide for python import statements:
+https://chrisyeh96.github.io/2017/08/08/definitive-guide-python-imports.html
+
+2:
+KUDOS KeyNote #2
+
+---------------
+Preperations:
+---------------
+Create a directory inside your "HOME" directory, 
+call this folder "python_import"
+
+BASH:
+-------
+cd ~
+mkdir python_import
+-------
+
+In the tutorial folder you'll find a file called "my_first_import.py"
+Copy thie file to the "python_import" folder
+
+------------
+Excercise:
+------------
+
+1. Create new python file in your editor, make sure that 
+your new python file isn't found inside the "python_import" folder 
+we've just created
+
+Note:
+Class recommendation is solving entire excercises inside a folder called
+"python_excercises" inside your HOME directory
+See "How to solve Kudos Excercises?" page provided in the first
+class lecture
+
+2. Try to import "my_first_python" file,
+by adding the line "import my_first_python" line to your python module
+Run your python file, what happened?
+
+Questions:
+#1 Why the python import failed?
+#2 Any idea how to solve the importing issue?
+
+3. At this stage we'll add "python_import" folder into
+python import search location
+
+Hint #1: Python having several hints for searching imports,
+at this excercise try to add the path into "sys.path" folder
+
+4. Try to import "my_first_python_again"
+If the import failed again, please go again to subject 3 
+(or look at the solution...)
+Afterwards please use the "imported_function" found 
+inside the the "python_import" file
+
+Questions:
+#1 - What happened while you've imported the package?
+Can you explain why it happened?
+
+5. Please import "sys" package, and print "sys.path"
+Note: At this stage you should've import at least
+once the sys package and use sys path
+
+Questions:
+#1 What is "path"? Think in python terminiology, which
+python structure is it?
+#2 What are the importance of paths find inside "sys.path"?
+#3 What will happen if we'll remove entire sys path? How can we do that?
+(ADVANCED) 
+

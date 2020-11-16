@@ -1,0 +1,22 @@
+--------------
+Git:
+--------------
+
+Git
+Github
+
+--------------
+Python:
+--------------
+Variables:
+str, int, boolean, None
+Functions
+Casting, Types
+Conditions Statments:
+If, While, For
+Operators:
+=, !=, /= 
+List
+Dict
+Tuples
+Mutable, Immutable
