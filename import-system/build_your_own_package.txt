@@ -59,7 +59,7 @@ python import search location
 Hint #1: Python having several hints for searching imports,
 at this excercise try to add the path into "sys.path" folder
 
-4. Try to import "my_first_python_again"
+4. Try to import "my_first_python" again
 If the import failed again, please go again to subject 3 
 (or look at the solution...)
 Afterwards please use the "imported_function" found 
